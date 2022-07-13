@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS us_counties_2000(
 
 copy us_counties_2000
 FROM
-    '/home/vbourassa/pratical_sql/us_counties_2000.csv' WITH(format csv, header);
+    '/home/roger/pratical_sql/us_counties_2000.csv' WITH(format csv, header);
