@@ -13,4 +13,4 @@ FROM us_counties_2000 AS c2000
 WHERE c2000.geo_name IS NOT NULL
     AND c2010.geo_name IS NOT NULL
 ORDER BY percent_change
-limit 10;
+LIMIT 10;
