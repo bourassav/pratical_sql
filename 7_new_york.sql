@@ -10,4 +10,4 @@ CREATE TABLE new_york_addresses(
 
 copy new_york_addresses
 FROM
-    '/home/vbourassa/pratical_sql/new_york.csv' WITH (format csv, header);
+    '/home/roger/pratical_sql/new_york.csv' WITH (format csv, header);
